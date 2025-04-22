@@ -4,6 +4,8 @@ public class Main {
         Sanduiche x_salada = new Sanduiche("pão brioche", "queijo mussarela", null, true, true, true, true, false, false, false, true, false, false);
         Sanduiche x_tudo = new Sanduiche("pão brioche", "queijo mussarela", "maionese verde", true, true, true, true, true, true, true, true, true, true);
         
+        System.out.println("\n\n\n\n");
+        
         misto.mostrarIngredientes();
         x_salada.mostrarIngredientes();
         x_tudo.mostrarIngredientes();
